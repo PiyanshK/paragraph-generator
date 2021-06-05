@@ -1,1 +1,1 @@
-# paragraph-generator
+# text-generator
