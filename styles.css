@@ -1,0 +1,18 @@
+:root {
+    --bar-height: 50px;
+    --section-height: 99vh;
+}
+
+::selection {
+    background: #a0870b;
+}
+
+body {
+    margin: 0;
+    font-family: "Fira Code", sans-serif;
+}
+
+* {
+    font-family: "Fira Code", sans-serif;
+    scroll-behavior: smooth;
+}
