@@ -2,7 +2,7 @@ const textholder = document.getElementById('generatedtext');
 const btnscentence = document.getElementById('generatesentence');
 const btnparagraph = document.getElementById('generateparagraph');
 const btnarticle = document.getElementById('genereatearticle');
-const txtgen = txtgenfunc(); 
+const txtgen = require('txtgen'); 
 
 
 function clearContents(element) {
