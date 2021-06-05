@@ -1,8 +1,3 @@
-:root {
-    --bar-height: 50px;
-    --section-height: 99vh;
-}
-
 ::selection {
     background: #a0870b;
 }
@@ -15,4 +10,56 @@ body {
 * {
     font-family: "Fira Code", sans-serif;
     scroll-behavior: smooth;
+}
+
+.mainspace{
+    height: calc(98vh - 145.455px);
+}
+
+.page__title{
+    text-align: center;
+}
+
+.buttons{
+    align-items: center;
+    text-align: center;
+}
+.text{
+    text-align: center;
+    align-items: center;
+    outline: 5px solid white;
+    padding-top: 20px;
+}
+
+.generatedtext{
+    border:1px solid red;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.contact{
+    border: 5px solid #ff0000;
+}
+
+.title{
+    margin: 0;
+    text-align: center;
+}
+
+.github{
+    padding: 20px;
+    color: black;
+} 
+
+.linkedin{
+    padding: 20px;
+    color: #2867B2;
+}
+
+.twitter{
+    padding: 20px;
+    color: rgba(29,161,242,1.00);
+}
+
+.social{
+    text-align: center;
 }

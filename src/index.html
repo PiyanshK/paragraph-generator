@@ -1,17 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Text genereator</title>
-</head>
+    <head>
+
+
+        <link rel="stylesheet" href="styles.css"/>
+        <meta charset="UTF-8"/>
+        <script
+        src="https://kit.fontawesome.com/f96fc7db48.js"
+        crossorigin="anonymous"
+    ></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Text Generator</title>
+    </head>
 <body>
+    <div class="mainspace">
     <h1 class="page__title">Random Text Genereator</h1>
+    <div class="buttons">
     <button class="generateparagraph" id = "generateparagraph">Get Paragraph</button>
     <button class="generatesentence" id = "generatesentence">Get Sentence</button>
     <button class="genereatearticle" id="genereatearticle">Get Article</button>
+    </div>
+    <div class="text">
     <textarea class="generatedtext" id="generatedtext" placeholder="Generated Text"></textarea>
-    <script data-main="./scripts/app" src="./scripts/generator.js"></script>
+    </div>
+</div>
+<div class="contact">
+    <h1 class="title">Contact</h1>
+    <div class="social">
+        <a href="https://github.com/PiyanshK" target="_blank"
+        ><i class="fab fa-github fa-4x github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/piyansh-kumar-8b907a1ba/" target="_blank"
+        ><i class="fab fa-linkedin fa-4x linkedin"></i
+        ></a>
+        <a href="https://twitter.com/PiyanshK" target="_blank"
+        ><i class="fab fa-twitter fa-4x twitter"></i
+        ></a>
+    </div>
+</div>
+<script data-main="./scripts/app" src="./scripts/generator.js"></script>
 </body>
 </html>
