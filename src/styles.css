@@ -5,6 +5,7 @@
 body {
     margin: 0;
     font-family: "Fira Code", sans-serif;
+    background: #000000;
 }
 
 * {
@@ -13,31 +14,52 @@ body {
 }
 
 .mainspace{
-    height: calc(98vh - 145.455px);
+    height: calc((98vh - 145.455px) - 1em);
+    background: #000000;
+    position: relative;
 }
 
 .page__title{
+    padding-top: 25px;
     text-align: center;
+    margin-top: 0;
 }
 
 .buttons{
     align-items: center;
     text-align: center;
-}
-.text{
-    text-align: center;
-    align-items: center;
-    outline: 5px solid white;
-    padding-top: 20px;
+    margin-bottom: 150px;
+    margin-top: 50px;
 }
 
 .generatedtext{
-    border:1px solid red;
-    box-shadow: 0 0 10px #719ECE;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #52057b;
+    height: 250px;
+    width: 500px;
+    outline: none;
+    margin: auto;
+    width: 50%;
 }
 
+.generatedtext:hover{
+    box-shadow: 0 0 10px #a600ff;
+}
+
+.generateparagraph, .generatesentence, .generatearticle{
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+
 .contact{
-    border: 5px solid #ff0000;
+    border: 8px solid #ff0000;
+    border-radius: 15px;
+}
+
+.contact:hover{
+    border: 8px solid #26ff00;
 }
 
 .title{
