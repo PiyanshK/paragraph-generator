@@ -1,15 +1,23 @@
-const textholder = document.getElementById('generatedtext');
-const btnscentence = document.getElementById('generatesentence');
-const btnparagraph = document.getElementById('generateparagraph');
-const btnarticle = document.getElementById('genereatearticle');
-const textgen = require('textgen');
+const txtgen = require('txtgen');
+const animate = require('animejs');
+const textholder = document.getElementById('textholder');
 
-function clearContents(element) {
-    element.value = '';
-  }
-
-document.getElementById('generatesentence').addEventListener("click", function(){
-    clearContents(textholder);
-    //let scentence = textgen.scentence;
-    console.log("scentence");
+animate({
+    targets: 'body',
+    duration: 5000,
+    background: "#001375",
 })
+
+document.getElementById("generateparagraph").addEventListener("click", function() {
+  let paragraph = txtgen.paragraph;
+  console.log(paragraph);
+  textholder.append("<p>" + paragraph + "</p>");
+});
+
+document.getElementById("generatesentence").addEventListener("click", function() {
+  alert("Hello World!");
+});
+
+document.getElementById("generatearticle").addEventListener("click", function() {
+  alert("Hello World!");
+});

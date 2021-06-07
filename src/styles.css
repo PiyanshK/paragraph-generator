@@ -15,7 +15,6 @@ body {
 
 .mainspace{
     height: calc((98vh - 145.455px) - 1em);
-    background: #000000;
     position: relative;
 }
 
