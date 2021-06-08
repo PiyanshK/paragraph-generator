@@ -1,0 +1,24 @@
+{
+  "name": "paragraph-generator",
+  "version": "1.0.0",
+  "description": "Random Text Generator Using txtgen (<https://github.com/ndaidong/txtgen>)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiyanshK/paragraph-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PiyanshK/paragraph-generator/issues"
+  },
+  "homepage": "https://github.com/PiyanshK/paragraph-generator#readme",
+  "dependencies": {
+    "animejs": "^3.2.1",
+    "txtgen": "^2.2.8"
+  }
+}
