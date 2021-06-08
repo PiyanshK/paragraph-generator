@@ -1,86 +1,84 @@
 ::selection {
-    background: #a0870b;
+  background: #a0870b;
 }
 
 body {
-    margin: 0;
-    font-family: "Fira Code", sans-serif;
-    background: #000000;
+  margin: 0;
+  font-family: "Fira Code", sans-serif;
+  background: #000000;
 }
 
 * {
-    font-family: "Fira Code", sans-serif;
-    scroll-behavior: smooth;
+  font-family: "Fira Code", sans-serif;
+  scroll-behavior: smooth;
 }
 
-.mainspace{
-    height: calc((98vh - 145.455px) - 1em);
-    position: relative;
+.mainspace {
+  height: calc((98vh - 145.455px) - 1em);
+  position: relative;
 }
 
-.page__title{
-    padding-top: 25px;
-    text-align: center;
-    margin-top: 0;
+.page__title {
+  padding-top: 25px;
+  text-align: center;
+  margin-top: 0;
 }
 
-.buttons{
-    align-items: center;
-    text-align: center;
-    margin-bottom: 150px;
-    margin-top: 50px;
+.buttons {
+  align-items: center;
+  text-align: center;
+  margin-bottom: 150px;
+  margin-top: 50px;
 }
 
-.generatedtext{
-    border-radius: 15px;
-    box-shadow: 0 0 10px #52057b;
-    height: 250px;
-    width: 500px;
-    outline: none;
-    margin: auto;
-    width: 50%;
+.textholder {
+  border-radius: 15px;
+  box-shadow: 0 0 10px #52057b;
+  margin: auto;
+  width: 50%;
 }
 
-.generatedtext:hover{
-    box-shadow: 0 0 10px #a600ff;
+.texxtholder:hover {
+  box-shadow: 0 0 10px #a600ff;
 }
 
-.generateparagraph, .generatesentence, .generatearticle{
-    color: #000000;
-    background-color: #ffffff;
-    border-radius: 5px;
+.generateparagraph,
+.generatesentence,
+.generatearticle {
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 5px;
 }
 
-
-.contact{
-    border: 8px solid #ff0000;
-    border-radius: 15px;
+.contact {
+  border: 8px solid #ff0000;
+  border-radius: 15px;
 }
 
-.contact:hover{
-    border: 8px solid #26ff00;
+.contact:hover {
+  border: 8px solid #26ff00;
 }
 
-.title{
-    margin: 0;
-    text-align: center;
+.title {
+  margin: 0;
+  text-align: center;
 }
 
-.github{
-    padding: 20px;
-    color: black;
-} 
-
-.linkedin{
-    padding: 20px;
-    color: #2867B2;
+.github {
+  padding: 20px;
+  color: black;
 }
 
-.twitter{
-    padding: 20px;
-    color: rgba(29,161,242,1.00);
+.linkedin {
+  padding: 20px;
+  color: #2867b2;
 }
 
-.social{
-    text-align: center;
+.twitter {
+  padding: 20px;
+  color: rgba(29, 161, 242, 1);
+}
+
+.social {
+  text-align: center;
 }

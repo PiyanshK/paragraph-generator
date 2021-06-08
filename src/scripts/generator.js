@@ -1,6 +1,11 @@
-const txtgen = require('txtgen');
 const animate = require('animejs');
-const textholder = document.getElementById('textholder');
+const text = document.getElementById("text");
+const txtgen = require("txtgen");
+
+
+var sentence = txtgen.sentence();
+var paragraph = txtgen.paragraph();
+var article = txtgen.article();
 
 animate({
     targets: 'body',
@@ -8,16 +13,24 @@ animate({
     background: "#001375",
 })
 
-document.getElementById("generateparagraph").addEventListener("click", function() {
-  let paragraph = txtgen.paragraph;
-  console.log(paragraph);
-  textholder.append("<p>" + paragraph + "</p>");
-});
+document
+  .getElementById("generateparagraph")
+  .addEventListener("click", function () {
+    text.innerHTML = paragraph;
+  });
 
-document.getElementById("generatesentence").addEventListener("click", function() {
-  alert("Hello World!");
-});
+document
+  .getElementById("generatesentence")
+  .addEventListener("click", function () {
+    text.innerHTML = sentence;
+  });
 
-document.getElementById("generatearticle").addEventListener("click", function() {
-  alert("Hello World!");
-});
+document
+  .getElementById("generatearticle")
+  .addEventListener("click", function () {
+    text.innerHTML = article;
+  });
+
+var sentence = txtgen.sentence();
+var paragraph = txtgen.paragraph();
+var article = txtgen.article();
