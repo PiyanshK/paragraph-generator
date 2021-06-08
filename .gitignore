@@ -5,4 +5,8 @@ node_modules/animejs/README.md
 node_modules/animejs/lib/anime.es.js
 node_modules/animejs/lib/anime.js
 node_modules/animejs/lib/anime.min.js
+<<<<<<< HEAD
 node_modules/
+=======
+node_modules/txtgen/
+>>>>>>> 4d34ea8d62ef12f94bee36321441601236e4c156
