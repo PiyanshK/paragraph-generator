@@ -32,3 +32,5 @@ node_modules/txtgen/src/main.js
 node_modules/txtgen/dist/txtgen.min.map
 node_modules/txtgen/dist/txtgen.min.js
 node_modules/txtgen/dist/txtgen.js
+package.json
+package-lock.json
