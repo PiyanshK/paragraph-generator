@@ -12,7 +12,6 @@ node_modules/txtgen/README.md
 node_modules/txtgen/reset.js
 node_modules/txtgen/.github/workflows/ci-test.yml
 node_modules/txtgen/types/tslint.json
-.gitignore
 node_modules/txtgen/types/tsconfig.json
 node_modules/txtgen/types/test.ts
 node_modules/txtgen/types/index.d.ts
