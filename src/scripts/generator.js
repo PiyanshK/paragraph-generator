@@ -28,8 +28,45 @@ document
 // Animations
 
 const animate = require("animejs");
+let contact = document.getElementById("contact");
+let socialtitleone = document.getElementById("social-title-one");
+let socialtitletwo = document.getElementById("social-title-two");
+let socialtitlethree = document.getElementById("social-title-three");
 
-animate({
-  target: "body",
-  
-})
+contact.onmousemove = function () {
+  animate({
+    targets: contact,
+    background: "#171414",
+    duration: 3000,
+  });
+  animate({
+    opacity: "1",
+    duration: 250,
+    easing: "easeInOutQuad",
+    targets: socialtitleone,
+    color: "#fff",
+    begin: function () {
+      document.getElementById("social-title-one").style.display = "block";
+    },
+  });
+  animate({
+    opacity: "1",
+    duration: 250,
+    easing: "easeInOutQuad",
+    targets: socialtitletwo,
+    color: "#fff",
+    begin: function () {
+      document.getElementById("social-title-two").style.display = "block";
+    },
+  });
+  animate({
+    opacity: "1",
+    duration: 250,
+    easing: "easeInOutQuad",
+    targets: socialtitlethree,
+    color: "#fff",
+    begin: function () {
+      document.getElementById("social-title-three").style.display = "block";
+    },
+  });
+};
